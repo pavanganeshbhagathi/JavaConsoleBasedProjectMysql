@@ -460,7 +460,7 @@ public class IssueCrud {
 				
 				//System.out.println(id+"  "+projectName+"  "+issueType+"  "+prioritytype+"  "+statusticket+"  "+rollUser+"  "+AssignedBy+"  "+AssigneeTo+"  "+summary+"  "+issueDescription+"  "+issueDate+"  "+closedDate);
 				
-				System.out.format("%15d %15s %15s %15s %15s %15s %15s %15s %40s %40s %15s %20s %30s %30s",
+				System.out.format("%15s %15s %15s %15s %15s %15s %15s %15s %40s %40s %30s %30s",
 						id,
 						projectName, issueType, prioritytype, statusticket, rollUser, AssignedBy, AssigneeTo, summary,
 						issueDescription, issueDate, closedDate);
